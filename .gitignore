@@ -1,0 +1,53 @@
+# === 密钥/凭证 ===
+backend/.env
+.env
+*.local
+.claude/
+
+# === 无关脚本 ===
+tmp.py
+
+# === 版权教材数据 ===
+data/textbooks/*.pdf
+data/textbooks/
+data.zip
+
+# === 向量数据库（可重新导入） ===
+data/chroma_db/
+
+# === Python ===
+backend/venv/
+venv/
+**/__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+*.egg
+
+# === Node.js ===
+frontend/node_modules/
+frontend/dist/
+
+# === 日志 ===
+*.log
+
+# === IDE/编辑器 ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === 操作系统 ===
+.DS_Store
+Thumbs.db
+
+# === 临时文件 ===
+*.ppm
+*-jpeg-*.ppm
+
+# === 申报材料（与代码无关） ===
+目标表格.png
+演示视频讲稿.pdf
+河北省教育技术中心关于开展2026年人工智能教育与应用案例征集活动的通知.pdf
