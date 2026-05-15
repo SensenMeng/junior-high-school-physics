@@ -134,11 +134,7 @@ npm run dev
 
 ## 向量模型切换说明
 
-当前 `backend/embedding.py` 为本地 BGE 版本，默认模型路径是：
-
-```text
-D:/bge-large-zh-v1.5
-```
+当前 `backend/embedding.py` 为本地 BGE 版本，模型路径由该文件内 `_MODEL_PATH` 控制（仓库默认值为 `D:/bge-large-zh-v1.5`，请按你的机器路径修改）。
 
 若需使用百川 API 版本，可将 `embedding_baichuan.py` 替换为 `embedding.py`，并在 `.env` 中配置 `BAICHUAN_API_KEY`。
 
